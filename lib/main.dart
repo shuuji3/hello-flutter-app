@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo (document.title)',
+      title: 'Beautiful App',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.pink,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Find beautiful beings'),
     );
   }
 }
@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: 'Find a new beautiful thing',
         child: Icon(Icons.plus_one),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
